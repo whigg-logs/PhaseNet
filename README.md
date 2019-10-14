@@ -4,12 +4,15 @@
 
 项目包含了四个基本模型，包括纯CNN的Inception、WaveNet、UNet和融合的双向RNN结构。
 模型粗略统计如下：
+
 |Model name|Num of parameters|Infer time|
 |:-:|:-:|:-:|:-:|
 |Inception|229283|0.025|
 |CNN+BRNN|476195|1.0|
 |WaveNet|2715651|0.17|
 |UNet|2715651|0.10|
+
+
 
 仓库主要文件为
 1. [Training code](train.py) 用于训练模型的程序；
