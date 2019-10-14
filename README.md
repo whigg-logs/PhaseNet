@@ -6,7 +6,7 @@
 模型粗略统计如下：
 
 |Model name|Num of parameters|Infer time|
-|:-:|:-:|:-:|:-:|
+|---|----|-----|
 |Inception|229283|0.025|
 |CNN+BRNN|476195|1.0|
 |WaveNet|2715651|0.17|
